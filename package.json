@@ -1,0 +1,14 @@
+{
+  "name": "typescript-refresher",
+  "version": "1.0.0",
+  "description": "Educational web app for TypeScript concepts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx serve .",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
