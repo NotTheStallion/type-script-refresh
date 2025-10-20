@@ -2,6 +2,12 @@
 
 An interactive educational web app that teaches core TypeScript concepts with live examples and hands-on demos.
 
+## 🌐 Live Demo
+
+**Visit the live app:** [https://notthestallion.github.io/type-script-refresh/](https://notthestallion.github.io/type-script-refresh/)
+
+[![Deploy Status](https://github.com/NotTheStallion/type-script-refresh/actions/workflows/static.yml/badge.svg)](https://github.com/NotTheStallion/type-script-refresh/actions/workflows/static.yml)
+
 ## Features
 
 ### 📚 Learning Content
@@ -199,6 +205,37 @@ Works in all modern browsers supporting ES6:
 - Chrome/Edge 51+
 - Firefox 54+
 - Safari 10+
+
+## 🚀 Deployment
+
+This project is configured for automatic deployment to GitHub Pages.
+
+### Automatic Deployment
+Every push to `master` triggers a GitHub Actions workflow that:
+1. Installs dependencies
+2. Compiles TypeScript
+3. Deploys to GitHub Pages
+
+**Live URL:** [https://notthestallion.github.io/type-script-refresh/](https://notthestallion.github.io/type-script-refresh/)
+
+### Deploy Your Own
+1. Fork this repository
+2. Enable GitHub Pages in Settings → Pages
+3. Set source to "GitHub Actions"
+4. Push to `master` branch
+5. Your app will be live at `https://yourusername.github.io/type-script-refresh/`
+
+**Full deployment guide:** See [DEPLOYMENT.md](DEPLOYMENT.md)
+
+## 📚 Documentation
+
+- **[QUICKSTART.md](QUICKSTART.md)** - Get started quickly
+- **[BUILD_GUIDE.md](BUILD_GUIDE.md)** - Complete build documentation
+- **[MAKEFILE.md](MAKEFILE.md)** - Makefile commands reference
+- **[FEATURES.md](FEATURES.md)** - Interactive features overview
+- **[INTERACTION_GUIDE.md](INTERACTION_GUIDE.md)** - How TS ↔ HTML works
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - System architecture
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - GitHub Pages deployment
 
 ## License
 
